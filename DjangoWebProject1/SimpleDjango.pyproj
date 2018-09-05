@@ -64,6 +64,7 @@
     <Folder Include="DjangoWebProject1\" />
     <Folder Include="Simple\" />
     <Folder Include="Simple\migrations\" />
+    <Folder Include="Simple\static\" />
     <Folder Include="Simple\templates\" />
     <Folder Include="Simple\templates\Simple\" />
   </ItemGroup>
@@ -98,7 +99,10 @@
     <Content Include="app\templates\app\layout.html" />
     <Content Include="app\templates\app\login.html" />
     <Content Include="app\templates\app\loginpartial.html" />
+    <Content Include="Simple\static\site.css" />
+    <Content Include="Simple\templates\Simple\about.html" />
     <Content Include="Simple\templates\Simple\index.html" />
+    <Content Include="Simple\templates\Simple\layout.html" />
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.html">
